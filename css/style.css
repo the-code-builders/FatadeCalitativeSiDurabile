@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap");
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -322,7 +320,7 @@ section {
 .hero-section {
   width: 100%;
   height: max-content;
-  background: url("../assets/Images/Heroimage.webp") no-repeat center / cover;
+  background: url("../assets/Images/Heroimage.png") no-repeat center / cover;
   padding-top: 170px;
 }
 
@@ -554,17 +552,17 @@ section {
 
 .servicii-img-1 {
   background: linear-gradient(to bottom, #20202050, var(--dark)),
-    url("../assets/Images/Servicii1.webp") no-repeat 50% 100% / cover;
+    url("../assets/Images/Servicii1.jpg") no-repeat 50% 100% / cover;
 }
 
 .servicii-img-2 {
   background: linear-gradient(to bottom, #20202050, var(--dark)),
-    url("../assets/Images/Servicii2.webp") no-repeat 50% 100% / cover;
+    url("../assets/Images/Servicii2.jpg") no-repeat 50% 100% / cover;
 }
 
 .servicii-img-3 {
   background: linear-gradient(to bottom, #20202050, var(--dark)),
-    url("../assets/Images/Servicii3.webp") no-repeat 25% 100% / cover;
+    url("../assets/Images/Servicii3.jpg") no-repeat 25% 100% / cover;
 }
 
 .servicii .informatia {
@@ -708,7 +706,7 @@ section {
 }
 
 .info-contact {
-  background: url("../assets/Images/Contactimage2.webp") no-repeat center / cover;
+  background: url("../assets/Images/Contactimage2.png") no-repeat center / cover;
   background-size: cover;
   height: 100%;
   display: flex;
@@ -1407,7 +1405,7 @@ ul {
   }
 
   .hero-section {
-    background: url("../assets/Images/Heroimage.webp") no-repeat 25% 75% / cover;
+    background: url("../assets/Images/Heroimage.png") no-repeat 25% 75% / cover;
   }
 
   .hero-section p {
@@ -1464,7 +1462,7 @@ ul {
 
 @media screen and (min-width: 360px) and (max-width: 1024px) {
   .hero-section {
-    background: url(../assets/Images/Heroimage.webp) no-repeat 25% 50% / cover;
+    background: url(../assets/Images/Heroimage.png) no-repeat 25% 50% / cover;
   }
 
   .info-contact .info {
@@ -1528,7 +1526,7 @@ ul {
 
   .info-contact {
     height: 200px;
-    background: url("../assets/Images/Contactimage2.webp") no-repeat top / cover;
+    background: url("../assets/Images/Contactimage2.png") no-repeat top / cover;
   }
 
   .info-text a {
